@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiHeader SYSTEM "header.dtd">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xmlns:nkjp="http://www.nkjp.pl/ns/1.0" xml:lang="en" xml:id="IJPPANp0003600000">
+ <fileDesc>
+  <titleStmt>
+   <title>TEI P5 encoded version of "Midrasz - 1"</title>
+  </titleStmt>
+  <publicationStmt nkjp:subcorpus="unbalanced">
+   <availability status="restricted">
+    <p>Publicity available, see agreement with the editor</p>
+   </availability>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl xml:id="bibl">
+	<title xml:lang="pl" level="j">Midrasz</title>
+	<publisher>Stowarzyszenie "Midrasz"</publisher>
+	<pubPlace>00-104 Warszawa, ul. Twarda 6, Poland</pubPlace>
+	<idno type="ISSN">1428-121X</idno>
+	<idno type="issue">1</idno>
+	<note type="text_origin">PWN</note>
+   </bibl>
+   <listBibl>
+   	<bibl xml:id="bibl-1">
+     <ptr target="#text-1"/>
+     <title xml:lang="pl" level="a">Bilans otwarcia</title>
+     <author>Konstanty Gebert, Katarzyna Jutkiewicz, Krzysztof Korzonkowski, Małgorzata Lewinson, Marta Narocka, Agnieszka Nowakowska, Karolina Szykierska, Maciej Wełyczko</author>
+    </bibl>
+	<bibl xml:id="bibl-2">
+     <ptr target="#text-2"/>
+     <title xml:lang="pl" level="a">Raport socjologa</title>
+     <author>Paweł Śpiewak</author>
+    </bibl>
+
+   </listBibl>
+  </sourceDesc>
+ </fileDesc>
+ <profileDesc>
+  <textClass>
+   <catRef scheme="#taxonomy-NKJP-type" target="#typ_publ"/>
+   <catRef scheme="#taxonomy-NKJP-channel" target="#kanal_prasa_miesiecznik"/>
+  </textClass>
+ </profileDesc>
+ <revisionDesc xml:id="changelog_local">
+  <change who="Michal Wozniak" when="2010-01-29">
+   <ptr target="text.xml"/>
+	<list>
+	 <head>creation of the text</head>
+	 <item>Creation of text_structure.xml form a html file by Szperacz</item>
+	</list>
+  </change>
+ </revisionDesc>
+</teiHeader>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <xi:include href="NKJP_1M_header.xml"/>
+  <TEI>
+    <xi:include href="header.xml"/>
+    <text xml:id="txt_text" xml:lang="pl">
+      <body xml:id="txt_body">
+        <div xml:id="txt_1-div" decls="#h_1-bibl">
+          <ab n="p3in16of:pwn:gazety:C:C0523GZS.998.xml_3" xml:id="txt_1.1-ab">Dwaj młodzi strażnicy municypalni byli niestety pijani: kierowca miał we krwi 1,6 promila alkoholu, zaś jego kolega trochę więcej — 1,8. Na tę okoliczność policja nie badała przygodnego pasażera. Ich sprawa, niezależnie od ewentualnych sankcji służbowych w urzędzie gminy, znajdzie się na wokandzie Kolegium Orzekającego, a to tylko dlatego, iż nikt nie został ranny. Inaczej trafiłaby do sądu.</ab>
+        </div>
+        <div xml:id="txt_2-div" decls="#h_2-bibl">
+          <ab n="p6in22of:pwn:gazety:c0:c0590gzs.998.xml_2" xml:id="txt_2.1-ab">Z dużych miast wojewódzkich tylko w Płocku płacimy mniej za przejazd komunikacją miejską. Normalny bilet sieciowy kosztuje w tym mieście 30 złotych. Najdroższa "sieciówka" jest we Wrocławiu i Kielcach — kosztuje 60 złotych. W Szczecinie pasażerowie płacą miesięcznie 55 złotych, w Krakowie 46 złotych, w Warszawie 45 złotych, a w Katowicach 34 złote. Poznaniacy na normalną "sieciówkę" wydać muszą 33,20 złotych.</ab>
+        </div>
+        <div xml:id="txt_3-div" decls="#h_3-bibl">
+          <ab n="p2in14of:pwn:gazety:C:C0523GZS.998.xml_2" xml:id="txt_3.1-ab">Od kilku miesięcy do Polski szerokim strumieniem zaczęły napływać rozmaite wersje „jednorękich bandytów”. Większość pochodzi z państw Europy Zachodniej, głównie z Holandii, w których wprowadzono w tej dziedzinie bardziej rygorystyczne regulacje; część natomiast z Czech, w których niedawno ruszyła produkcja tego sprzętu.</ab>
+        </div>
+        <div xml:id="txt_4-div" decls="#h_4-bibl">
+          <ab n="p9in28of:pwn:gazety:c0:c0566gzs.998.xml_6" xml:id="txt_4.1-ab">Kupowanie w sklepach z używaną odzieżą dawno już przestało być dla nastolatków i studentów wstydem. — Na Zachodzie większość młodzieży kupuje w tzw. second-handach i nie jest to niczym niewłaściwym, w takich miejscach ubiera się wiele znanych aktorek i modelek — mówi Bożena Świdurska, właścicielka jednego ze sklepów w Poznaniu.</ab>
+        </div>
+        <div xml:id="txt_5-div" decls="#h_5-bibl">
+          <ab n="p22in54of:pwn:gazety:c0:c0543gzs.998.xml_7" xml:id="txt_5.1-ab">Kolejny etap to muzyka. Krzesimir Dębski po obejrzeniu pierwszego montażu może wreszcie zacząć komponować muzykę, którą zresztą nosił w sobie od rozpoczęcia pierwszych zdjęć. Z jego muzyką film będzie mógł wejść w fazę synchronizacji, czyli ostatecznego zgrania efektów dźwiękowych z obrazami. Po tym etapie pozostanie już tylko zrobienie kopii i na przełomie stycznia i lutego — a więc w terminie planowanym — odbędzie się premiera.</ab>
+        </div>
+        <div xml:id="txt_6-div" decls="#h_6-bibl">
+          <ab n="p1in12of:pwn:gazety:C:C0523GZS.998.xml_4" xml:id="txt_6.1-ab">Pierwszy w pełni kompleksowy system zagospodarowania odpadów komunalnych w Wielkopolsce powstanie na terenie Związku Gmin Regionu Słupeckiego. Poza dziewięcioma zainteresowanymi gminami, w przedsięwzięciu bierze udział Agencja Własności Rolnej Skarbu Państwa, firma Ekoprojekt z Poznania oraz firma Kapak z Berlina. Docelowo myśli się o rozbudowie tego systemu na całe województwo wielkopolskie.</ab>
+        </div>
+        <div xml:id="txt_7-div" decls="#h_7-bibl">
+          <ab n="p5in20of:pwn:gazety:C:C0523GZS.998.xml_1" xml:id="txt_7.1-ab">Temperatura była tak wysoka, iż odpadł nawet tynk, do generalnego remontu nadaje się też korytarz (właśnie odnowiony przez mieszkańców). Strażacy wstępnie określili straty na 15.000 złotych. Jak przypuszczają, pożar spowodowany być może został zaprószeniem ognia, najprawdopodobniej od niedopałka papierosa. Sąsiedzi twierdzą, że tego wieczoru w mieszkaniu odbywała się alkoholowa impreza. Być może pożar był bezpośrednim jej skutkiem.</ab>
+        </div>
+        <div xml:id="txt_8-div" decls="#h_8-bibl">
+          <ab n="p1in12of:pwn:gazety:C:C0523GZS.998.xml_3" xml:id="txt_8.1-ab">Bardzo źle się dzieje, gdy coraz więcej kierowców siada za kółkiem po wypiciu alkoholu, jest zaś jeszcze gorzej, gdy to samo robią stróże porządku. Tym razem chodzi o Straż Miejską z Obornik. Służbowy Polonez został skasowany, oni sami oraz przygodny pasażer, wyszli z wypadku bez szwanku.</ab>
+        </div>
+        <div xml:id="txt_9-div" decls="#h_9-bibl">
+          <ab n="p14in38of:pwn:gazety:c0:c0566gzs.998.xml_9" xml:id="txt_9.1-ab">Na zawołanie potrafi on regulować klimatyzację samochodową, wybierać numery znajdującego się w aucie telefonu, wyszukać w radioodtwarzaczu pożądany program radiowy. Wykonuje to skrupulatnie, a nie przeszkadzają mu w tym ani towarzyszące jeździe samochodem odgłosy pędu powietrza, ani nastawiona na najwyższe obroty dmuchawa, ani głośna muzyka. Czuły mikrofon, mniejszy niż kość do gry, umieszczony na kolumnie kierownicy, sam bowiem potrafi pomijać obce efekty akustyczne.</ab>
+        </div>
+        <div xml:id="txt_10-div" decls="#h_10-bibl">
+          <ab n="p5in20of:pwn:gazety:c0:c0515gzs.998.xml_1" xml:id="txt_10.1-ab">– Niestety, nie wiemy do jakich celów została użyta pieczątka z napisem "wojewoda poznański" — mówi komisarz Andrzej Kubica z Komendy Wojewódzkiej Policji we Wrocławiu. — W piwnicy i łazience jednego z domów w podwrocławskich Krzykach wśród podrobionych dokumentów nie znaleźliśmy żadnego podbitego pieczątką wojewody poznańskiego. I jeśli podejrzany takiego dokumentu nie wskaże, trudno będzie go odnaleźć.</ab>
+        </div>
+        <div xml:id="txt_11-div" decls="#h_11-bibl">
+          <ab n="p2in14of:pwn:gazety:C:C0523GZS.998.xml_4" xml:id="txt_11.1-ab">Aż trzy ustawy nakładają na gminy obowiązek segregacji, unieszkodliwiania lub wykorzystania odpadów.</ab>
+          <ab n="p3in16of:pwn:gazety:C:C0523GZS.998.xml_4" xml:id="txt_11.2-ab">Jednej gminie trudno jest zorganizować system obejmujący segregację, zakłady przerabiające surowce wtórne, firmy utylizujące odpady nie nadające się do powtórnego wykorzystania oraz wysypiska dla tego czego nie można, ani przerobić, ani unieszkodliwić. Przede wszystkim występuje tu problem z pozyskaniem odpowiednio dużej ilości śmieci, które nadawałyby się do przerobu. Dlatego łatwiej utworzyć taki system dla kilku lub kilkunastu gmin.</ab>
+        </div>
+        <div xml:id="txt_12-div" decls="#h_12-bibl">
+          <ab n="p18in46of:pwn:gazety:c0:c0542gzs.998.xml_5" xml:id="txt_12.1-ab">Rzecznik moskiewskiej organizacji Greenpeace Iwan Błokow powiedział w związku z tym redakcji magazynu niemieckiego "Stern": — Tego rodzaju pływające elektrownie są niebezpieczniejsze niż normalne, gdyż odpady radioaktywne musiałyby być później przywiezione z Afryki względnie Azji do Rosji. A tam przecież już teraz nie wiadomo, gdzie je bezpiecznie składować.</ab>
+        </div>
+        <div xml:id="txt_13-div" decls="#h_13-bibl">
+          <ab n="p17in44of:pwn:gazety:c0:c0564gzs.998.xml_2" xml:id="txt_13.1-ab">— Nie sądzi chyba pan jednak, że możemy powiedzieć wszystko. Jak wtedy mielibyśmy chronić te osoby? Siłą rzeczy muszą być i dezinformacje — mówi kompetentny policjant mający niebawem chronić świadków koronnych. Dopóki nie zostaną przekazane szczegółowe przepisy wykonawcze nie ma o czym mówić, a i tak wiadomo, że będą to informacje objęte tajemnicą.</ab>
+        </div>
+        <div xml:id="txt_14-div" decls="#h_14-bibl">
+          <ab n="p31in72of:pwn:gazety:c0:c0563gzs.998.xml_7" xml:id="txt_14.1-ab">O tym, w jaki sposób wykorzystywane są zboża zbierane w Polsce najlepiej świadczy przykład gospodarstw starosty i starościny wczorajszych dożynek w Pniewach. Można przyjąć że są reprezentatywne przynajmniej dla rolnictwa całego regionu. Okazuje się, że w Wielkopolsce rolnicy większość zebranych zbóż przeznaczają na pasze dla swoich zwierząt. Czynią tak wspomniani starościna i starosta.</ab>
+        </div>
+        <div xml:id="txt_15-div" decls="#h_15-bibl">
+          <ab n="p1in12of:pwn:gazety:c0:c0517gzs.998.xml_2" xml:id="txt_15.1-ab">Świąteczna sobota spowodowała, że zapowiadana na 15 sierpnia akcja zatrzymywania i deportacji nielegalnie pracujących w naszym kraju nie doszła do skutku. Po Polsce nie kursuje jeszcze autobus, który zabierać miał stojące przy drogach prostytutki. Policja zapowiada jednak, że nadejdzie dzień, w którym "tirówki" znikną z dróg.</ab>
+        </div>
+        <div xml:id="txt_16-div" decls="#h_16-bibl">
+          <ab n="p15in40of:pwn:gazety:c0:c0563gzs.998.xml_5" xml:id="txt_16.1-ab">I właśnie w czasie ostatniego pobytu w Poznaniu trwającego 2 tygodnie poeta zagłębiał się w Bibliotece Raczyńskich w studiowaniu Statutu Litewskiego Lwa Sapiehy, co było mu pomocne do napisania Pana Tadeusza. Proponuję uczczenie tego faktu tablicą na wzór tablicy Sienkiewicza na frontonie Bazaru. Poznań jest właściwie jedynym większym miastem na terenie naszego kraju, na które spoglądały oczy wielkiego poety.</ab>
+        </div>
+        <div xml:id="txt_17-div" decls="#h_17-bibl">
+          <ab n="p4in18of:pwn:gazety:C:C0523GZS.998.xml_1" xml:id="txt_17.1-ab">W sumie w tej nocnej akcji uczestniczyło pięć jednostek, czyli 15 strażaków. Ratownikom udało się w ciągu dwudziestu minut zlokalizować źródło ognia, jednak płonące pomieszczenie było nie do uratowania, wypaliło się całkowicie. Na spalonym tapczanie odkryto zwłoki właściciela mieszkania, zginął podczas snu. Akcja, wraz z porządkowaniem i zabezpieczeniem zgliszcz zakończyła się o 5.23.</ab>
+        </div>
+        <div xml:id="txt_18-div" decls="#h_18-bibl">
+          <ab n="p42in94of:pwn:gazety:c0:c0541gzs.998.xml_6" xml:id="txt_18.1-ab">— Są ludzie, którzy starają się wprowadzać pewne udogodnienia. Znajomy lutnik zwierzał mi się kiedyś, że do mniejszych szpar zamiast wstawek używa szpachlu, tak jak w technice meblarskiej. Obraził się na mnie, gdy spytałem, czy przy większych szparach stosuje tapetę. Pewnych rzeczy nie można przeskoczyć — tłumaczy lutnik. — My mówimy, że nie ten majster zły, który źle skleił, ale ten po którym nie można poprawić.</ab>
+        </div>
+        <div xml:id="txt_19-div" decls="#h_19-bibl">
+          <ab n="p5in20of:pwn:gazety:C:C0523GZS.998.xml_4" xml:id="txt_19.1-ab">Uruchamiany system ma stać się zaczątkiem większego, obejmującego całą Wielkopolskę. Ma on działać w oparciu o wydzielone przez Agencję Własności Rolnej Skarbu Państwa grunty i budynki, które będą użytkować realizujące program firmy. W ten sposób wykorzysta się leżące odłogiem grunty i niszczejące budynki na wysypiska śmieci oraz zakłady utylizacyjne i przetwarzające surowce wtórne. Dodatkowym zyskiem będzie stworzenie nowych miejsc pracy.</ab>
+        </div>
+        <div xml:id="txt_20-div" decls="#h_20-bibl">
+          <ab n="p9in28of:pwn:gazety:C:C0523GZS.998.xml_1" xml:id="txt_20.1-ab">Na szczęście do wybuchu nie doszło, strażacy zjawili się błyskawicznie, natychmiast zaczęli polewać butle i ewakuować mieszkańców zagrożonego domu. Po godzinie 15 przyjechał samochód ze specjalnym basenem z wodą, w którym umieszczono niebezpieczne butle.</ab>
+          <ab n="p10in30of:pwn:gazety:C:C0523GZS.998.xml_1" xml:id="txt_20.2-ab">Przyczyną tego groźnego epizodu był prawdopodobnie błąd popełniony przez ekipę spawaczy. Trwa dochodzenie w tej sprawie.</ab>
+        </div>
+        <div xml:id="txt_21-div" decls="#h_21-bibl">
+          <ab n="p5in20of:pwn:gazety:c0:c0543gzs.998.xml_2" xml:id="txt_21.1-ab">BUDKA SUFLERA to świetny przykład na długowieczność muzyków. Zaczęło się na dobre w roku 1972, kiedy to trzon zespołu tworzyli Krzysztof Cugowski i Romuald Lipko. W 1975 roku ukazał się pierwszy album grupy "Cień wielkiej góry", na którym oprócz utworu tytułowego znalazł się między innymi utwór "Jest taki samotny dom".</ab>
+        </div>
+        <div xml:id="txt_22-div" decls="#h_22-bibl">
+          <ab n="p27in64of:pwn:gazety:c0:c0515gzs.998.xml_6" xml:id="txt_22.1-ab">— Na tym budynku, gdzie znajduje się jeszcze Biała Dama zostanie umieszczone duże malowidło ścienne — mówi pracownik Biura Plastyka Miejskiego Urzędu Miasta w Poznaniu. — Aktualnie ta ściana jest w bardzo złym stanie. Firma, która zareklamuje się w tym miejscu wyremontuje tę powierzchnię i będzie uiszczać miesięczną opłatę Wydziałowi Gospodarki Komunalnej.</ab>
+        </div>
+        <div xml:id="txt_23-div" decls="#h_23-bibl">
+          <ab n="p75in160of:pwn:gazety:c0:c0567gzs.998.xml_6" xml:id="txt_23.1-ab">W okresie międzywojennym pałac w Kadynach nie był zamieszkały. Salony na parterze udostępniono publiczności i pełniły one rolę muzeum. A że sympatie monarchistyczne w Niemczech nie wygasły, do Kadyn przyjeżdżali nie tylko mieszkańcy pobliskiego Elbląga, ale także liczne wycieczki z Prus Wschodnich, a nawet turyści z głębi Rzeszy.</ab>
+        </div>
+        <div xml:id="txt_24-div" decls="#h_24-bibl">
+          <ab n="p1in12of:pwn:gazety:c0:c0541gzs.998.xml_5" xml:id="txt_24.1-ab">Dla światowych producentów odzieży Polska staje się coraz ważniejszym rynkiem zbytu. Świadczy o tym między innymi coraz liczniejszy udział firm zagranicznych w targach mody odbywających się co roku w Poznaniu wiosną i jesienią. Polscy producenci nie dają za wygraną, dotrzymując kroku modzie i zachodnim nowinkom.</ab>
+        </div>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>
