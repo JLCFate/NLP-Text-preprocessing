@@ -2,6 +2,8 @@
 from bs4 import BeautifulSoup
 import re
 import urllib.request
+import pycountry
+from countryinfo import CountryInfo
 
 month_name = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -62,10 +64,36 @@ def parse_month(month=0, year=0):
                             # Each theme is one line in the top-level list
                             # Parse those events
                             events = parse_ul_tree(t)
-                            print(events)
+                            for event in events:
+                                print(event)
+                                # Extract country name from the event text
+                                event_text = event[1]
+                                country_info = get_country_info(event_text)
+                                if country_info:
+                                    print('------------------------------------')
+                                    print(country_info)
+                                    print('------------------------------------')
 
 
-if (__name__ == "__main__"):
+def get_country_info(text):
+    """
+    Get additional information about countries mentioned in the text.
+    :param text: text containing country names
+    :return: additional information about countries
+    """
+    countries = re.findall(r'\b([A-Z][a-z]+(?:\s[A-Z][a-z]+)*)\b', text)
+    country_info = ""
+    for country_name in countries:
+        try:
+            country = pycountry.countries.lookup(country_name)
+            country_information = CountryInfo(country_name)
+            country_info += f"{country.name} Population: {country_information.population()}"
+        except LookupError:
+            pass
+    return country_info
+
+
+if __name__ == "__main__":
     import sys
     year = 0
     month = 0
