@@ -4,6 +4,7 @@ import re
 import urllib.request
 import pycountry
 from countryinfo import CountryInfo
+import requests
 
 month_name = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"]
@@ -87,10 +88,26 @@ def get_country_info(text):
         try:
             country = pycountry.countries.lookup(country_name)
             country_information = CountryInfo(country_name)
-            country_info += f"{country.name} Population: {country_information.population()}"
+            country_info += (f"{country.name} \nPopulation: {country_information.population()}"
+                             f" \nArea: {country_information.area()} km^2 ")
+                            #get_country_area_by_xml(country.name)
         except LookupError:
             pass
     return country_info
+
+
+def get_country_area_by_xml(country):
+    url = f'https://en.wikipedia.org/wiki/{country}'
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, "html.parser")
+    items = soup.find_all("tr", class_='mergedrow')
+    for item in items:
+        th = item.find_all("div", class_='ib-country-fake-li')
+        if len(th) != 0 and 'Total' in th[0].get_text():
+            td = item.find_all("td", class_='infobox-data')
+            if len(td) != 0 and 'km' in td[0].get_text():
+                size = td[0].get_text()
+                return size
 
 
 if __name__ == "__main__":

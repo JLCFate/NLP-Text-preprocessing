@@ -1,3 +1,4 @@
+import sys
 import nltk
 import morfeusz2
 from nltk.tokenize import word_tokenize
@@ -15,12 +16,13 @@ def adjust_tokens(tokens):
     return adjusted_tokens
 
 
-def symmetric_kwic(keyword, filepath, flag=False, total_width=33):
+def symmetric_kwic(keyword, filepath, param, total_width=33):
     with open(filepath, 'r', encoding='utf-8') as file:
         text = file.read()
-
     tokens = word_tokenize(text)
     adjusted_tokens = adjust_tokens(tokens)
+
+    flag = True if param == 'odmien' else False
 
     if flag:
         keywords = get_inflected_forms(keyword)
@@ -61,4 +63,10 @@ def get_inflected_forms(word):
     return [var for var, *_ in m.generate(word)]
 
 
-symmetric_kwic('uczestnik', './Texts/kodeks.txt', True)
+if __name__ == "__main__":
+    keyword = sys.argv[1]
+    multiple_forms = sys.argv[2]
+    files = sys.argv[3:]
+    for file in files:
+        print(file)
+        symmetric_kwic(keyword, file, multiple_forms)
