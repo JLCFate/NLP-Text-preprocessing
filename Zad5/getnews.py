@@ -96,18 +96,19 @@ def get_country_info(text):
     return country_info
 
 
-def get_country_area_by_xml(country):
-    url = f'https://en.wikipedia.org/wiki/{country}'
-    page = requests.get(url)
+def get_country_area_by_xml(country_name):
+    country_url = f'https://en.wikipedia.org/wiki/{country_name}'
+    page = requests.get(country_url)
     soup = BeautifulSoup(page.content, "html.parser")
-    items = soup.find_all("tr", class_='mergedrow')
-    for item in items:
-        th = item.find_all("div", class_='ib-country-fake-li')
-        if len(th) != 0 and 'Total' in th[0].get_text():
-            td = item.find_all("td", class_='infobox-data')
-            if len(td) != 0 and 'km' in td[0].get_text():
-                size = td[0].get_text()
+    rows = soup.find_all("tr", class_='mergedrow')
+    for row in rows:
+        div_elements = row.find_all("div", class_='ib-country-fake-li')
+        if div_elements and 'Total' in div_elements[0].get_text():
+            td_elements = row.find_all("td", class_='infobox-data')
+            if td_elements and 'km' in td_elements[0].get_text():
+                size = td_elements[0].get_text()
                 return size
+    return None
 
 
 if __name__ == "__main__":
