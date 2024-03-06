@@ -1,0 +1,12 @@
+Zad4:
+python .\kwic.py uczestnik odmien .\Texts\kodeks.txt
+python .\kwic.py uczestnik nieodmien .\Texts\kodeks.txt
+
+Zad5:
+python .\getnews.py
+
+Zad6:
+python .\proc_nkjp.py .\Data\ann_morphosyntax.xml
+
+Zad7:
+python .\ustawa.py .\Data\D20211805Lj.pdf

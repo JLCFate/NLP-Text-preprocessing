@@ -92,14 +92,14 @@ def get_next_morph(filename):
                 yield orth, interps, correct_interp
                 orth = ""
                 interps = []
-                disamb = correct_interp
+                disamb = ""
 
 
 if (__name__ == "__main__"):
     import sys
     for setname in sys.argv[1:]:
         print(setname)
-        mm = get_next_morph(setname + "Data/ann_morphosyntax.xml")
+        mm = get_next_morph(setname)
         for m in mm:
             orth, interps, disamb = m
             print("orth=", orth, ", interps=", interps, ", disamb=", disamb,
