@@ -34,22 +34,18 @@ def symmetric_kwic(keyword, filepath, param, total_width=33):
     for i, token in enumerate(adjusted_tokens):
         for kw in keywords:
             if kw.lower() == token.lower():
-                # Adjust start and end indices to limit the context to max_context_width
                 left_index = max(0, i - total_width)
                 right_index = min(len(adjusted_tokens), i + total_width + 1)
 
                 left_context_tokens = adjusted_tokens[left_index:i]
                 right_context_tokens = adjusted_tokens[i + 1:right_index]
 
-                # Join the tokens to form the left and right context strings
                 left_context = ' '.join(left_context_tokens)
                 right_context = ' '.join(right_context_tokens)
 
-                # Ensure the left context is trimmed to fit the max_context_width
                 if len(left_context) > total_width:
                     left_context = left_context[-total_width:]
 
-                # Ensure the right context is trimmed to fit the max_context_width
                 if len(right_context) > total_width:
                     right_context = right_context[:total_width]
 
